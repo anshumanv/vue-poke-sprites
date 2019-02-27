@@ -1,5 +1,8 @@
 <template>
-  <div id="app"><PokeSprite :pokemon="this.pokemon"></PokeSprite></div>
+  <div id="app">
+    <PokeSprite :pokemon="this.pokemon"></PokeSprite>
+    <input v-model="pokemon" />
+  </div>
 </template>
 
 <script>
@@ -12,7 +15,7 @@ export default {
   },
   data() {
     return {
-      pokemon: "10"
+      pokemon: 10
     };
   }
 };

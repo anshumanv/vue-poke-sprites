@@ -14,12 +14,15 @@ export default {
   },
   methods: {
     getGifUrl() {
-      const { pokemon } = this;
+      let { pokemon } = this;
+      pokemon = isNaN(pokemon) ? pokemon : parseInt(pokemon);
       const name =
         typeof pokemon === "string" ? pokemon : pokemonNumberToName[pokemon];
       let url = "";
+      console.log(pokemon, name);
       try {
         url = pokemonGif(name);
+        console.log(pokemon, name);
       } catch (e) {
         console.log(e);
         url = "";
