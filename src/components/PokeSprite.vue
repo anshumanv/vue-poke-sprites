@@ -19,6 +19,7 @@ export default {
       try {
         url = pokemonGif(name);
       } catch (e) {
+        // eslint-disable-next-line
         console.error(e);
         url = "";
       }
