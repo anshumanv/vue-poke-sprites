@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "pokemon-gif": "^1.0.13",
     "vue": "^2.5.17"
   },
   "devDependencies": {
