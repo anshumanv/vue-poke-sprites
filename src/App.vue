@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <PokeSprite :pokemon="this.pokemon"></PokeSprite>
-    <input v-model="pokemon" />
+    <PokeSprite :pokemon="this.pokemon" class="new-pokemon"></PokeSprite>
+    <input v-model="pokemon" class="poke-input" />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      pokemon: 10
+      pokemon: "charizard"
     };
   }
 };
@@ -28,6 +28,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 </style>
