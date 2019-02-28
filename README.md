@@ -4,7 +4,9 @@
 
 <h1 align="center"> vue-poke-sprites </h1>
 <p align="center">
-<img src="https://img.shields.io/npm/v/vue-poke-sprites.svg?style=for-the-badge" align="center">
+<a href="https://img.shields.io/npm/v/vue-poke-sprites.svg?style=for-the-badge">
+  <img src="https://img.shields.io/npm/v/vue-poke-sprites.svg?style=for-the-badge" align="center">
+</a>
 
 <img src="https://img.shields.io/npm/dt/vue-poke-sprites.svg?style=for-the-badge" align="center">
 
