@@ -4,15 +4,25 @@
 
 <h1 align="center"> vue-poke-sprites </h1>
 <p align="center">
-<a href="https://img.shields.io/npm/v/vue-poke-sprites.svg?style=for-the-badge">
+<a href="https://www.npmjs.com/package/vue-poke-sprites">
   <img src="https://img.shields.io/npm/v/vue-poke-sprites.svg?style=for-the-badge" align="center">
 </a>
 
-<img src="https://img.shields.io/npm/dt/vue-poke-sprites.svg?style=for-the-badge" align="center">
+<a href="https://travis-ci.com/anshumanv/vue-poke-sprites">
+  <img src="https://img.shields.io/travis/com/anshumanv/vue-poke-sprites/master.svg?style=for-the-badge" align="center">
+  </a>
 
-<img src="https://img.shields.io/github/license/anshumanv/vue-poke-sprites.svg?style=for-the-badge" align="center">
 
+<a href="https://www.npmjs.com/package/vue-poke-sprites">
+  <img src="https://img.shields.io/npm/dt/vue-poke-sprites.svg?style=for-the-badge" align="center">
+</a>
+
+<a href="https://github.com/anshumanv/vue-poke-sprites">
+  <img src="https://img.shields.io/github/license/anshumanv/vue-poke-sprites.svg?style=for-the-badge" align="center">
+</a>
 </p>
+
+<hr>
 
 <p align="center">A vue component that renders animated pokemon sprites.</p>
 
@@ -21,7 +31,7 @@
 Visit - [Link](https://vue-poke-sprites.netlify.com)
 
 
-### Usage
+## Usage
 
 1. Install the package
 
@@ -53,7 +63,7 @@ export default {
 ```
 
 
-### Props
+## Props
 
 * **pokemon** - Pass the name or the ID of the pokemon.
 
@@ -72,6 +82,7 @@ export default {
 [<img src="https://image.flaticon.com/icons/svg/185/185961.svg" width="35" padding="10">](https://twitter.com/Anshumaniac12)
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://linkedin.com/in/anshumanv12)
 [<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/anshumanv12)
+[<img src="https://image.flaticon.com/icons/svg/985/985680.svg" width="35" padding="10">](https://www.paypal.me/AnshumanVerma)
 
 
 ## Contribute
