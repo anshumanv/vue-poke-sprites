@@ -1,7 +1,6 @@
 {
   "name": "vue-poke-sprites",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "main": "./dist/vue-poke-sprites.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
