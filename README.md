@@ -19,6 +19,45 @@
 Visit - [Link](https://vue-poke-sprites.netlify.com)
 
 
+### Usage
+
+1. Install the package
+
+```sh
+$ yarn add --save vue-poke-sprites
+```
+
+2. Import the component
+
+```js
+import PokeSprite from "./components/PokeSprite.vue";
+.
+.
+export default {
+  .
+  .
+  components: {
+    PokeSprite
+  }
+  .
+  .
+}
+```
+
+3. Use it
+
+```js
+  <PokeSprite pokemon="lugia" spriteClass="pokemon-lugia"></PokeSprite>
+```
+
+
+### Props
+
+* **pokemon** - Pass the name or the ID of the pokemon.
+
+* **spriteClass** - Pass in a class name to modify as you see fit.
+
+
 ## Related
 
 * A corresponding React component is [here](https://github.com/anshumanv/react-poke-sprites)

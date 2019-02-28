@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PokeSprite :pokemon="this.pokemon" class="new-pokemon"></PokeSprite>
+    <PokeSprite :pokemon="this.pokemon" spriteClass="new-pokemon"></PokeSprite>
     <input v-model="pokemon" class="poke-input" />
   </div>
 </template>
